@@ -220,9 +220,9 @@ function create_config()
     },
     autoleave = false,
     bot_api = {
-      key = bot_api_key,
-      uid = tonumber(bot_api_uid),
-      uname = bot_api_uname
+      key = 214738689:AAERuqN1gqXcCtFwTsb2bGHar9xb6s_2zXo,
+      uid = tonumber(214738689),
+      uname = @forceTG_api_bot
     },
     disabled_channels = {},
     disabled_plugin_on_chat = {},
@@ -259,7 +259,7 @@ function create_config()
     globally_banned = {},
     mkgroup = {founded = '', founder = '', title = '', gtype = '', uid = ''},
     realm = {},
-    sudo_users = {[our_id] = our_id}
+    sudo_users = {[90516804,172561830] = 90516804,172561830}
   }
   save_config()
 end
